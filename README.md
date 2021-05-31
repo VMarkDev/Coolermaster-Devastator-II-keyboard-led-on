@@ -8,5 +8,4 @@ el codigo citado acontinuacion debe copiarlo en un block de notas y gardarlo com
 Code:
 
 `Set Keys = CreateObject("WScript.Shell")
-
 Keys.SendKeys("^{SCROLLLOCK}")`
