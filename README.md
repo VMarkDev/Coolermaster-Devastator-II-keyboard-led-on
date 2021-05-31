@@ -3,3 +3,8 @@ The code mentioned below must be copied to a notepad and saved as .vbs, if you w
 
 este código sirve para activar la luz del teclado Cooler Master Devastator II, envia una señal al sistema de que la tecla SCR LK fue precionado.
 el codigo citado acontinuacion debe copiarlo en un block de notas y gardarlo como .vbs, si desea que se ejecute de forma automatica al iniciar windows debe copiar el archivo en la carpeta inicio del menu inicio de windows.
+
+
+Code:
+Set Keys = CreateObject("WScript.Shell")
+Keys.SendKeys("^{SCROLLLOCK}")
